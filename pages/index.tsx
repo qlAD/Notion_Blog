@@ -34,7 +34,7 @@ export const getAllPosts = async (): Promise<Post[]> => {
 
 export const getPostView = async (slug: string): Promise<number> => {
   return await axios
-    .get('https://api.splitbee.io/v1/blog.qlad.com/pageviews', {
+    .get('https://api.splitbee.io/v1/blog.qlad.top/pageviews', {
       params: { page: slug },
       headers: { 'x-api-key': process.env.SPLITBEE_API_TOKEN }
     })

@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-stretch">
-          <a href="https://spencerwoo.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.qlad.top" target="_blank" rel="noopener noreferrer">
             <div className="btn btn-ghost btn-sm rounded">
               Portfolio
               <ExternalLinkIcon className="ml-2 w-5 h-5" />
@@ -47,7 +47,7 @@ const Navbar = () => {
             <Link href="/friends">Friends</Link>
           </li>
           <li>
-            <a className="flex items-center" href="https://spencerwoo.com" target="_blank" rel="noopener noreferrer">
+            <a className="flex items-center" href="https://www.qlad.top" target="_blank" rel="noopener noreferrer">
               Portfolio
               <ExternalLinkIcon className="ml-2 w-5 h-5" />
             </a>

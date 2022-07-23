@@ -11,7 +11,7 @@ class MyDocument extends Document {
         }}
       >
         <Head>
-          <script async src="https://analytics.spencerwoo.com/sb.js" data-token="P4NLW57KW58Z"></script>
+          <script async src="https://cdn.splitbee.io/sb.js" data-token="BFXDYV0U3G3Z"></script>
         </Head>
         <body>
           <Main />

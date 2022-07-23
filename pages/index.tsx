@@ -61,7 +61,7 @@ const HomePage = ({ posts }: { posts: Post[] }) => {
   return (
     <>
       <Head>
-        <title>Spencer&apos;s Blog</title>
+        <title>qlAD&apos;s Blog</title>
       </Head>
       <div className="min-h-screen flex flex-col">
         <div className="container mx-auto max-w-3xl">
@@ -75,7 +75,7 @@ const HomePage = ({ posts }: { posts: Post[] }) => {
               src="/images/avatar.png"
               alt="avatar"
             />
-            <div className="mt-8 text-2xl font-bold">Spencer&apos;s Blog</div>
+            <div className="mt-8 text-2xl font-bold">qlAD&apos;s Blog</div>
             <div className="mt-2 text-neutral">
               Check out{' '}
               <Link href="/friends">

@@ -77,7 +77,7 @@ const Friends = () => {
   return (
     <>
       <Head>
-        <title>Friends & Guestbook - Spencer&apos;s Blog</title>
+        <title>Friends & Guestbook - qlAD&apos;s Blog</title>
       </Head>
       <div className="min-h-screen flex flex-col">
         <div className="container mx-auto max-w-3xl">

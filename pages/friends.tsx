@@ -108,7 +108,7 @@ const Friends = () => {
             </div>
 
             <div className="text-center text-neutral mt-4">
-              <a className="rounded link text-primary" href="mailto:spencer.wushangbo@gmail.com">
+              <a className="rounded link text-primary" href="mailto:qlad.meteor.studio@gmail.com">
                 Email me
               </a>{' '}
               if you want to get in touch!

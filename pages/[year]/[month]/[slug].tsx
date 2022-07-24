@@ -80,7 +80,7 @@ const BlogPost: FC<{ recordMap: ExtendedRecordMap; post: Post; pagination: Pagin
             <Pagination pagination={pagination} />
 
             <div className="mt-8">
-              <DiscussionEmbed shortname="qlad-blog" config={{ identifier: formatSlug(post.date, post.slug) }} />
+              <DiscussionEmbed shortname="qlad" config={{ identifier: formatSlug(post.date, post.slug) }} />
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { DiscussionEmbed } from 'disqus-react'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -113,10 +112,6 @@ const Friends = () => {
                 Email me
               </a>{' '}
               if you want to get in touch!
-            </div>
-
-            <div className="mt-8">
-              <DiscussionEmbed shortname="qlad-blog" config={{ identifier: 'qlad-blog-guestbook' }} />
             </div>
           </div>
         </div>

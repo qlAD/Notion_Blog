@@ -38,7 +38,7 @@ export const getStaticProps = async ({ params: { slug } }: { params: { slug: str
       post,
       pagination
     },
-    revalidate: 10
+    revalidate: 1
   }
 }
 
@@ -79,16 +79,9 @@ const BlogPost: FC<{ recordMap: ExtendedRecordMap; post: Post; pagination: Pagin
 
             <Pagination pagination={pagination} />
 
-            <div id="disqus_thread"></div>
-            <script>
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://qlad-blog.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            
+            <div className="mt-8">
+              <DiscussionEmbed shortname="qlad-blog" config={{ identifier: formatSlug(post.date, post.slug) }} />
+            </div>
           </div>
         </div>
 

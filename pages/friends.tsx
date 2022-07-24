@@ -115,16 +115,9 @@ const Friends = () => {
               if you want to get in touch!
             </div>
 
-            <div id="disqus_thread"></div>
-            <script>
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://qlad-blog.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            
+            <div className="mt-8">
+              <DiscussionEmbed shortname="qlad-blog" config={{ identifier: 'qlad-blog-guestbook' }} />
+            </div>
           </div>
         </div>
 
